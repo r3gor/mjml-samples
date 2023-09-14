@@ -1,0 +1,80 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .footer-list-item { display: flex; justify-content: start; align-items:
+      center; gap: 20px; font-size: 14px; } .footer-list-item img { width: 28px;
+      } .footer-list-item a { color: var(--accent-accent-100, #3817FF);
+      font-size: 14px; font-weight: 700; line-height: 24px; letter-spacing:
+      0.1px; text-decoration-line: underline; }
+    </mj-style>
+    <!-- <mj-attributes> -->
+    <!-- <mj-text font-size="14px" line-height="24px" color="#4a4a4a" />
+      <mj-section padding="0px" />
+      <mj-column padding="0px" /> -->
+    <!-- </mj-attributes> -->
+  </mj-head>
+  <mj-body>
+    <mj-wrapper
+      background-color="#E7EAFD"
+      full-width="full-width"
+      padding="48px 60px"
+    >
+      <mj-section padding="0px">
+        <mj-column padding="0px">
+          <mj-text
+            padding="0px 0px 26px 0px"
+            font-size="16px"
+            font-weight="700"
+            line-height="24px"
+          >
+            ¡Estamos aquí para lo que necesites!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Items -->
+
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div class="footer-list-item">
+              <image src="./assets/heart.svg" />
+              <div>
+                Gestiona tus seguros desde
+                <a>Mi Mundo RIMAC</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="18px 0px 0px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div class="footer-list-item">
+              <image src="./assets/whats.svg" />
+              <div>
+                Consulta por whatsApp con
+                <a>Tobi</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="18px 0px 0px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div class="footer-list-item">
+              <image src="./assets/phone.svg" />
+              <div>
+                Para emergencias llámanos al
+                <a>01 4111111</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

@@ -1,0 +1,72 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      .title div {
+        color: green;
+        text-align: center !important;
+        font-family: Arial !important;
+        font-size: 40px !important;
+        font-mj-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.6px;
+      }
+
+      .subtitle div {
+        color: var(--grey-grey-100, #0A051E) !important;
+        text-align: center !important;
+        font-family: Arial !important;;
+        font-size: 18px !important;;
+        font-style: normal !important;;
+        font-weight: 400 !important;;
+        line-height: 28px; /* 155.556% */
+        letter-spacing: 0.2px !important;;
+      }
+
+      .msg-content div {
+        color: var(--grey-grey-100, #0A051E) !important;
+        text-align: center !important;
+        font-family: Arial !important;
+        font-size: 18px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: 28px; /* 155. 556% */
+        letter-spacing: 0.2px !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image src="./assets/rimac-logo.svg" width="100px"></mj-image>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="title">¡Tu inspección vehicular no ha sido aprovada!</mj-text>
+        <mj-text css-class="subtitle">N° de placa: AOE 402</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="msg-content">
+      <mj-column>
+        <mj-text>¡Hola, [Nombre]!</mj-text>
+        <mj-text>
+          Aun no cuentas con el 100% de tus coverturas.
+          <br />
+          Debes volver a tomar las
+          <strong>02 fotos observadas</strong>
+          poder registrar nuevamente tu inspección.
+          <mj-text>
+            Fotos observadas: Frontal y lateral.
+          </mj-text>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="./assets/rimac-bg.jpg">
+      <mj-column>
+        <mj-image src="https://i.pinimg.com/originals/ef/22/42/ef2242609bfd5f7c3b7169dca1b28996.jpg" width='200px'></mj-image>
+        <mj-text color='white' align="center"> Lorem ipsum </mj-text>
+        <mj-button background-color="#F45E43"> Discover </mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

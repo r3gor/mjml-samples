@@ -1,0 +1,162 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @font-face { font-family: 'BRSonoma'; src:
+      url('https://www.rimac.com/fonts/BRSonoma-Regular.woff2')
+      format('opentype'); }
+    </mj-style>
+    <mj-attributes>
+      <!-- Title -->
+      <mj-class
+        name="title"
+        font-size="30px"
+        font-weight="700"
+        line-height="40px"
+      />
+
+      <!-- Subtitle -->
+      <mj-class
+        name="subtitle"
+        font-size="24px"
+        font-weight="700"
+        line-height="32px"
+      />
+
+      <!-- Content Wrapper -->
+      <mj-class name="main-wrapper" padding="64px 60px 40px 60px" />
+
+      <!-- Content Wrapper -->
+      <mj-class
+        name="content-wrapper"
+        border-top="1px solid #E1E1E1"
+        border-bottom="1px solid red"
+      />
+
+      <!-- Normal -->
+      <mj-text font-size="16px" font-family="Arial" line-height="28px" />
+      <!-- <mj-section background-color="#F8F9FF" />
+      <mj-wrapper background-color="#F8F9FF" /> -->
+      <mj-button
+        font-family="BRSonoma"
+        font-weight="700"
+        font-size="18px"
+        background-color="black"
+        border-radius="40px"
+        line-height="20px"
+        inner-padding="16px 40px"
+      />
+
+      <!-- <mj-section padding="0px" />
+      <mj-column padding="0px" /> -->
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F8F9FF">
+    <!-- Content -->
+    <mj-wrapper
+      mj-class="main-wrapper"
+      padding="0px 60px 40px 60px"
+      background-url="/assets/blur-violet.svg"
+      background-repeat="no-repeat"
+    >
+      <!-- Header -->
+      <mj-section padding="8px 30px">
+        <mj-column>
+          <mj-image
+            src="./assets/rimac-logo.svg"
+            width="85.29px"
+            align="left"
+          ></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- Title -->
+      <mj-section padding-top="64px">
+        <mj-column>
+          <mj-text mj-class="title" align="center" padding-bottom="0px">
+            ¡Tu inspección vehicular no ha sido aprobada!
+          </mj-text>
+          <mj-text align="center">N° de placa: AOE 402</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Description -->
+      <mj-section border-top="1px solid #CCD1EE">
+        <mj-column>
+          <mj-text mj-class="subtitle" align="left">¡Hola, [Nombre]!</mj-text>
+          <mj-text>
+            Aun no cuentas con el 100% de tus coverturas.
+            <br />
+            Debes volver a tomar las
+            <b>02 fotos observadas</b>
+            poder registrar nuevamente tu inspección.
+          </mj-text>
+          <mj-text> Fotos observadas: Frontal y lateral. </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Actions -->
+      <mj-section border-bottom="1px solid #CCD1EE">
+        <mj-column>
+          <mj-button> Ir a la inspección </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section></mj-section>
+
+      <!-- App Download -->
+      <mj-section
+        background-url="./assets/blur-aqua.svg"
+        background-size="cover"
+        background-color="#FFFFFF"
+        border-radius="40px"
+        padding="0px"
+      >
+        <mj-column padding="32px 0px 0px 32px">
+          <mj-text
+            font-size="24px"
+            font-weight="700"
+            color="#f7052d"
+            padding="0"
+          >
+            App Rimac
+          </mj-text>
+          <mj-text font-size="24px" font-weight="700" padding="0">
+            rápida, sencilla e intuitiva
+          </mj-text>
+          <mj-text
+            font-size="16px"
+            line-height="24px"
+            padding="8px 0px 16px 0px"
+          >
+            Escanea el QR y descubre la mejor experiencia para solicitar
+            nuestros servicios.
+          </mj-text>
+          <mj-button
+            font-family="BRSonoma"
+            font-size="14px"
+            background-color="black"
+            border-radius="40px"
+            line-height="20px"
+            width="100%"
+            inner-padding="12px 4px"
+            padding="0px"
+          >
+            Descargar App
+          </mj-button>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-image
+            src="./assets/rimac-app-download.svg"
+            align="right"
+            padding="0px"
+            align="left"
+            border-radius="0px 0px 40px 0px"
+          ></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Footer -->
+    <mj-include path="./footer.mjml" type="html" />
+  </mj-body>
+</mjml>
