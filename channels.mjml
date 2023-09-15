@@ -1,0 +1,94 @@
+<mjml>
+  <mj-body>
+    <mj-wrapper
+      background-color="#E7EAFD"
+      full-width="full-width"
+      padding="48px 60px"
+    >
+      <mj-section padding="0px">
+        <mj-column padding="0px">
+          <mj-text
+            padding="0px 0px 26px 0px"
+            font-size="16px"
+            font-weight="700"
+            line-height="24px"
+          >
+            ¡Estamos aquí para lo que necesites!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Items -->
+
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div class="footer-list-item">
+              <image src="./assets/heart.svg" />
+              <div>
+                Gestiona tus seguros desde
+                <a>Mi Mundo RIMAC</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="18px 0px 0px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div class="footer-list-item">
+              <image src="./assets/whats.svg" />
+              <div>
+                Consulta por whatsApp con
+                <a>Tobi</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="18px 0px 0px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div class="footer-list-item">
+              <image src="./assets/phone.svg" />
+              <div>
+                Para emergencias llámanos al
+                <a>01 4111111</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="18px 0px 0px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div class="footer-list-item">
+              <image src="./assets/shield.svg" />
+              <div>
+                Conoce nuestros seguros en
+                <a>rimac.com </a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="18px 0px 0px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div class="footer-list-item">
+              <image src="./assets/mail.svg" />
+              <div>
+                ¿Tienes alguna duda particular?
+                <a>escríbenos</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

@@ -19,6 +19,7 @@
   <mj-body>
     <mj-section background-color="#fbfbfb">
       <mj-column>
+        <mj-text letter-spacing="3px">Hello world</mj-text>
         <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0l.png" />
       </mj-column>
       <mj-column>
@@ -35,17 +36,4 @@
         </mj-social>
       </mj-column>
     </mj-section>
-    <!-- MJML -->
-    <mj-button href="#"> Hello There! </mj-button>
-
-  </mj-head>
-  <mj-body>
-    <mj-section>
-      <mj-column>
-        <mj-text css-class="red-text">I'm red and underlined</mj-text>
-        <mj-text css-class="blue-text">I'm blue because of inline</mj-text>
-        <mj-text mj-class="mjclass">I'm green</mj-text>
-      </mj-column>
-    </mj-section> 
-  </mj-body>
 </mjml>

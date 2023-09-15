@@ -1,0 +1,18 @@
+.footer-list-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+}
+.footer-list-item img {
+  width: 28px;
+}
+.footer-list-item a {
+  color: #3817ff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-decoration-line: underline;
+}

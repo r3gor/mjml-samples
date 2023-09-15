@@ -1,0 +1,13 @@
+<mjml>
+  <mj-body background-color="white">
+    <mj-section>
+      <mj-column>
+        <mj-text> Hello World! </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./sampleinclude02.mjml" />
+
+    <mj-include path="./sampleinclude03.mjml" />
+  </mj-body>
+</mjml>
