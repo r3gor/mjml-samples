@@ -76,6 +76,7 @@
       padding="0px 60px 40px 60px"
       background-url="/assets/blur-violet.svg"
       background-repeat="no-repeat"
+      background-position="40px -40px"
     >
       <!-- Header -->
       <mj-section padding="8px 30px">
@@ -176,7 +177,7 @@
     </mj-wrapper>
 
     <!-- Section: Channels -->
-    <mj-include path="./channels.mjml" type="html" />
+    <mj-include path="./channels.mjml" />
 
     <!-- Section: Footer -->
     <mj-wrapper
